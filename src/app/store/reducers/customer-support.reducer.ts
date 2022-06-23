@@ -1,4 +1,4 @@
-import { Action, createReducer, on } from '@ngrx/store';
+import { createReducer, on } from '@ngrx/store';
 import { sendingCustomerSupportMessage } from '../actions/customer-support.actions';
 
 export const customerSupportFeatureKey = 'customerSupport';
